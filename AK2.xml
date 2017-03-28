@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Testas>
+    <Asmenys cnt="2">
+        <Asmuo>
+            <Vardas>Andrius2</Vardas>
+            <Pavarde>Kulikauskas2</Pavarde>
+        </Asmuo>
+        <Asmuo>
+            <Vardas>Vardenis</Vardas>
+            <Pavarde>Pavardenis</Pavarde>
+        </Asmuo>
+    </Asmenys>
+</Testas>
