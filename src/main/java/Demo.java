@@ -40,7 +40,7 @@ public class Demo {
         person2.setPavarde("Kulikauskiene");
 
         persons.setCnt((byte) 2);
-        persons.setFoo((byte) 5);
+        persons.setFoo((byte) 7);
         persons.getAsmuo().add(person);
         persons.getAsmuo().add(person2);
 
