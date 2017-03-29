@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Testas>
-    <Asmenys cnt="2" foo="5">
+    <Asmenys cnt="2" foo="7">
         <Asmuo>
             <Vardas>Andrius</Vardas>
             <Pavarde>Kulikauskas</Pavarde>

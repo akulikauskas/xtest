@@ -11,6 +11,7 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import java.io.File;
+import java.io.IOException;
 
 
 /**
@@ -24,7 +25,7 @@ public class Demo {
     public static void main(String[] args) {
 
         Logger logger = LoggerFactory.getLogger("Demo");
-        logger.debug("Hello world.");
+        logger.debug("Hello world. DEV");
         // print internal state
         LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory();
         StatusPrinter.print(lc);
@@ -50,6 +51,12 @@ public class Demo {
 
         Testas t2 = jaxbXMLToObject();
         logger.debug("Pavarde :{}", t2.getAsmenys().getAsmuo().get(1).getPavarde());
+
+        try {
+            LoadCsv.loadCsv("AK.csv");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
 
     }
